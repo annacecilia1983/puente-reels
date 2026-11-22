@@ -1,0 +1,52 @@
+# Serie 3 (14/12 al 28/12/2026) · reels dinamicos. Voz: voz3/<v>.mp3. *texto* = dorado.
+REELS = {
+    'S3_01_monotributo': dict(tema='arca', kw='MONOTRIBUTO', scenes=[
+        dict(v='r1_1b', k='hook', label='MONOTRIBUTO', t='La recategorización mira tus *últimos 12 meses* de facturación'),
+        dict(v='r1_3b', k='big', big='12 MESES', bs=170, t='sumá lo facturado y compará con el *tope de tu categoría*'),
+        dict(v='r1_4', k='big', big='$12.009.410', bs=120, t='tope anual de la *categoría A*', n='Escala vigente desde el 1/8/2026.'),
+        dict(v='r1_5b', k='big', big='05/02/2027', bs=130, t='vence la recategorización del *período enero 2027*'),
+        dict(v='r1_6', k='cta', kw='MONOTRIBUTO', t='y revisamos tu caso'),
+    ]),
+    'S3_02_aguinaldo': dict(tema='sueldos', kw='SUELDOS', scenes=[
+        dict(v='r2_1', k='hook', label='AGUINALDO', t='La 2.ª cuota del aguinaldo vence el *18 de diciembre*'),
+        dict(v='r2_2', k='big', big='50 %', bs=230, t='de la *mayor remuneración mensual* de julio a diciembre'),
+        dict(v='r2_3', k='text', t='¿No trabajó todo el semestre?|Se paga *proporcional*'),
+        dict(v='r2_4', k='text', t='Diciembre todavía no terminó:|se *estima* y después se *ajusta*'),
+        dict(v='r2_5', k='text', t='La reforma laboral *no cambió* ni el cálculo ni las fechas'),
+        dict(v='r2_6', k='cta', kw='SUELDOS', t='y liquidamos el aguinaldo de tu equipo'),
+    ]),
+    'S3_03_plan_pagos': dict(tema='arca', kw='PLAN', scenes=[
+        dict(v='r3_1', k='hook', label='PLAN DE PAGOS', t='¿Deudas con ARCA? El plan para pymes *se amplió*'),
+        dict(v='r3_2', k='big', big='31/10/2026', bs=130, t='entran las deudas *vencidas hasta esa fecha*'),
+        dict(v='r3_3', k='big', big='30/06/2027', bs=130, t='último día para *adherir*', n='RG ARCA 5924/2026.'),
+        dict(v='r3_4', k='text', size=58, t='*Pymes tramo 1 y 2* con certificado vigente,|*pequeños contribuyentes* y|*entidades sin fines de lucro*'),
+        dict(v='r3_5', k='text', t='Online en *Mis Facilidades*,|con clave fiscal'),
+        dict(v='r3_6', k='cta', kw='PLAN', t='y vemos si te conviene'),
+    ]),
+    'S3_04_courier': dict(tema='comex', kw='IMPORTAR', scenes=[
+        dict(v='r4_0', k='hook', label='COMPRAS AL EXTERIOR', size=80, t='¿Compraste en *Temu, Shein* o *Amazon?*|Antes de tu próxima compra, *mirá esto*'),
+        dict(v='r4_2', k='big', big='USD 3.000', bs=150, t='máximo *por envío* por courier', n='Pero no todo ese importe queda libre de impuestos.'),
+        dict(v='r4_3b', k='big', big='USD 400 FOB', bs=140, t='sin *derecho de importación* ni *tasa de estadística*', n='Solo envíos sin finalidad comercial (uso personal). El IVA, y los impuestos internos si corresponden, se pagan igual.'),
+        dict(v='r4_7', k='big', big='5 VECES', bs=170, t='por año se puede usar la *franquicia*', n='Después, se pagan todos los tributos.'),
+        dict(v='r4_8', k='text', t='Cada paquete:|*menos de 50 kg*|y *hasta 3 unidades iguales*'),
+        dict(v='r4_9', k='text', size=62, t='ARCA *no te pide pagos* por mail, WhatsApp ni redes', n='Los impuestos se gestionan con la empresa de courier.'),
+        dict(v='r4_6', k='cta', kw='IMPORTAR', t='y analizamos tu operación'),
+    ]),
+    'S3_05_vacaciones': dict(tema='sueldos', kw='SUELDOS', scenes=[
+        dict(v='r5_1', k='hook', label='VACACIONES', t='La reforma laboral cambió *cómo se otorgan*'),
+        dict(v='r5_2', k='big', big='14 · 21 · 28 · 35', bs=110, t='días corridos según *antigüedad* (sin cambios)'),
+        dict(v='r5_3', k='big', big='30 DÍAS', bs=170, t='de *aviso previo*', n='Antes eran 45.'),
+        dict(v='r5_4', k='text', t='Con acuerdo, se pueden dividir|en tramos de *al menos 7 días*'),
+        dict(v='r5_5', k='text', t='Y se pagan *antes*|de que empiece el descanso'),
+        dict(v='r5_6', k='cta', kw='SUELDOS', t='y organizamos las vacaciones de tu equipo'),
+    ]),
+    'S3_06_cierre_anio': dict(tema='pregunta', kw='DIAGNÓSTICO', scenes=[
+        dict(v='r6_1', k='hook', label='CIERRE DEL AÑO', t='*5 cosas* para revisar antes del *31/12*'),
+        dict(v='r6_2', k='point', num='1', t='Monotributo: tu facturación de los *últimos 12 meses*'),
+        dict(v='r6_3', k='point', num='2', t='El *aguinaldo* de tu equipo, pagado a tiempo'),
+        dict(v='r6_4', k='point', num='3', t='Revisá tu *Domicilio Fiscal Electrónico.* Las notificaciones valen aunque no las abras'),
+        dict(v='r6_5', k='point', num='4', t='¿Deudas con ARCA? Mirá el *plan de pagos* vigente'),
+        dict(v='r6_6', k='point', num='5', t='Tus *comprobantes de compras*, ordenados para el cierre'),
+        dict(v='r6_7', k='cta', kw='DIAGNÓSTICO', t='y hacemos el chequeo con vos'),
+    ]),
+}
