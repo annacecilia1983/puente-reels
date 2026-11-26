@@ -50,3 +50,15 @@ REELS = {
         dict(v='r6_7', k='cta', kw='DIAGNÓSTICO', t='y hacemos el chequeo con vos'),
     ]),
 }
+
+# 25/11/2026 · ID FAL (fuente: guía CPCEF del 19/11/2026). Voz: voz3/f_*.mp3
+REELS['S3_07_id_fal'] = dict(tema='sueldos', kw='FAL', scenes=[
+    dict(v='f_1', k='hook', label='ID FAL', t='¿Ya tenés tu *ID FAL?*|El Fondo de Asistencia Laboral arranca el *1/12*'),
+    dict(v='f_2', k='text', t='El ID FAL *no lo da ARCA:*|lo asigna la *entidad habilitada por la CNV*', n='Ahí abrís la cuenta individual del empleador (FCI abierto o fideicomiso financiero).'),
+    dict(v='f_3', k='big', big='2,5 %', bs=230, t='MiPyMEs con *certificado vigente* y entidades sin fines de lucro', n='Resto de los empleadores: 1 %. Se descuenta de las contribuciones patronales: no es un costo extra.'),
+    dict(v='f_4', k='text', t='En *Simplificación Registral*|validás los datos y *aceptás el ID FAL*', n='Clave fiscal nivel 3. Antes de presentar el F.931 (versión 48).'),
+    dict(v='f_5', k='big', big='ENERO 2027', bs=140, t='vence el primer F.931 con FAL: *período diciembre 2026*', n='Se paga por VEP, en las fechas de la seguridad social.'),
+    dict(v='f_6', k='big', big='12 MESES', bs=170, t='de *carencia:* hasta fines de 2027 el fondo *no cubre despidos*', n='Esas indemnizaciones se pagan con fondos propios.'),
+    dict(v='f_7', k='text', t='Sin ID FAL,|ARCA *cobra igual*|y la CNV te asigna|*un fondo de oficio*', n='Presentar o pagar fuera de término genera intereses y multas.'),
+    dict(v='f_8', k='cta', kw='FAL', t='y lo dejamos listo antes de enero'),
+])
